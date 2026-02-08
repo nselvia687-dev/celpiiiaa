@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(bisque, brown);
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.pembungkus {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile h2 {
+  color: white;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.biodata {
+  margin-top: -80px;
+  background: linear-gradient(white,bisque );
+}
+}
+
+.action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
